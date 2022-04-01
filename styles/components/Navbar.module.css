@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--navbar-height);
+    border-bottom: 4px solid var(--color-grey-light);
+    padding-inline: var(--nav-padding-inline);
+}
+
+.cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart__count {
+    background-color: var(--color-black);
+    height: 1.2rem;
+    width: 1.2rem;
+    position: absolute;
+    right: -0.9rem;
+    bottom: -0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart__count__number {
+    color: var(--color-white);
+}
+

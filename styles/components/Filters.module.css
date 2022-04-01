@@ -1,0 +1,36 @@
+.container {
+}
+
+.filter__category {
+    padding-bottom: var(--spacing-2);
+    border-bottom: 2px solid var(--color-grey-light);
+}
+
+.filter__category h5 {
+    font-size: var(--fs-h6);
+    display: none;
+}
+
+.filter__items {
+    margin-top: var(--spacing-3);
+}
+
+.filter__price {
+    margin-top: var(--spacing-4);
+}
+
+.filter__price h5 {
+    font-size: var(--fs-h6);
+}
+
+.filter__item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+@media (min-width: 900px) { 
+    .filter__category h5 {
+        display: block;
+    }
+}

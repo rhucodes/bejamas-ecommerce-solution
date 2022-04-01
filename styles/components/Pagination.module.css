@@ -1,0 +1,28 @@
+.container {
+    margin-block: var(--spacing-6);
+    display: flex;
+    align-items: center;
+}
+
+.number__buttons {
+    display: flex;
+    gap: var(--spacing-3);
+}
+
+.next__prev__button{
+    color: var(--color-black);
+    font-size: var(--fs-h4);
+}
+
+.next__prev__btn:disabled {
+    opacity: 0;
+}
+
+.page__btn {
+    color: var(--color-grey-dark);
+    font-size: var(--fs-h5);
+}
+
+.page__btn.active__btn {
+    color: var(--color-black);
+}

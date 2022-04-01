@@ -1,0 +1,65 @@
+.container {
+    position: relative;
+}
+
+.image {
+    position: relative;
+    height: 300px;
+    cursor: pointer;
+}
+
+.best__seller {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    padding: var(--spacing-3);
+}
+
+.best__seller h6 {
+    font-size: var(--fs-h6);
+}
+
+.content p, 
+.content h5 ,   
+.content h4 {
+    margin-top: var(--spacing-3);
+}
+
+.content p,
+.content h5 {
+    color: var(--color-grey-dark);
+}
+
+.content h4 {
+    font-size: var(--fs-h4);
+}
+
+.content p {
+    font-size: var(--fs-p);
+}
+
+.content h5 {
+    font-size: var(--fs-h5);
+}
+
+.checkout__btn {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+@media (min-width: 900px) {
+    .image {
+        height: 250px;
+    }
+
+    .checkout__btn {
+        display: none;
+    }
+    .image:hover .checkout__btn{
+        display: block;
+    }
+}
+
